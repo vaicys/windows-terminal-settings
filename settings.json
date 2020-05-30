@@ -1,0 +1,61 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+
+    "initialCols": 120,
+    "initialRows": 40,
+    "copyOnSelect": true,
+    "confirmCloseAllTabs": false,
+    "tabWidthMode": "titleLength",
+    "initialPosition": "90, 110",
+
+    "profiles": {
+        "defaults": {
+            "colorScheme": "Campbell",
+            "fontFace": "Cascadia Mono",
+            "fontSize": 14,
+            "historySize": 10000,
+            "padding": "8,8",
+            "foreground": "#0f0",
+            "startingDirectory": "%USERPROFILE%"
+        },
+        "list": [
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "name": "PowerShell Core",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "PowerShell",
+                "commandline": "powershell.exe",
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png"
+
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "cmd.exe",
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png"
+            },
+            {
+                "guid": "{0d63a98c-06be-493e-b4f9-9d8ec1608345}",
+                "name": "Git Bash",
+                "commandline" : "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
+                "icon" : "%SystemDrive%\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "WSL",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    }
+}
