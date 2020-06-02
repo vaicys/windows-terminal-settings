@@ -57,5 +57,9 @@
                 "source": "Windows.Terminal.Azure"
             }
         ]
-    }
+    },
+    "keybindings": [
+        { "command": "closeTab", "keys":  "ctrl+w" },
+        { "command": "closeTab", "keys":  "ctrl+f4" }
+    ]
 }
