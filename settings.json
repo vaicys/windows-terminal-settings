@@ -1,3 +1,5 @@
+// https://docs.microsoft.com/en-us/windows/terminal/
+
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
   "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -50,6 +52,7 @@
   },
   "keybindings": [
     { "command": "closeTab", "keys": "ctrl+w" },
-    { "command": "closeTab", "keys": "ctrl+f4" }
+    { "command": "closeTab", "keys": "ctrl+f4" },
+    { "command": "newTab", "keys": "ctrl+t" }
   ]
 }
