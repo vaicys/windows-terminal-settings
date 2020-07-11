@@ -8,7 +8,7 @@
   "copyOnSelect": true,
   "confirmCloseAllTabs": false,
   "tabWidthMode": "titleLength",
-  "initialPosition": "90, 110",
+  "initialPosition": "120, 120",
   "profiles": {
     "defaults": {
       "colorScheme": "Campbell",
@@ -17,6 +17,7 @@
       "historySize": 10000,
       "padding": "8,8",
       "foreground": "#0f0",
+      "background": "#000",
       "startingDirectory": "%USERPROFILE%"
     },
     "list": [
@@ -29,7 +30,7 @@
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "name": "PowerShell",
         "commandline": "powershell.exe -NoLogo",
-	"hidden": true
+        "hidden": true
       }, {
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "name": "Command Prompt",
@@ -52,7 +53,7 @@
         "source": "Windows.Terminal.Wsl"
       }, {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        "hidden": false,
+        "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
       }
